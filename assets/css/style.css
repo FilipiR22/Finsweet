@@ -1,11 +1,47 @@
 /* Imports */
 /* Color - text */
+h1 {
+  font-size: 54px !important;
+  line-height: 74px; /* 137.037% */
+}
+
+p {
+  line-height: 28px; /* 175% */
+}
+
 /* Resets */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  padding: 1rem 0;
+  background-color: #1C1E53;
+}
+header a, header .btn-contact {
+  color: #fff;
+}
+
+.hero {
+  padding: 150px 0 130px;
+  background-color: #1C1E53;
+}
+.hero .text-left {
+  max-width: 582px;
+}
+.hero .text-left .btn-view {
+  background-color: #FCD980;
+  padding: 0 3.5rem;
+}
+.hero .ilustration {
+  max-width: 638px;
 }
 
 /*# sourceMappingURL=style.css.map */
