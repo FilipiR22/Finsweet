@@ -5,6 +5,11 @@ h1 {
   line-height: 74px; /* 137.037% */
 }
 
+h2 {
+  font-size: 48px !important;
+  line-height: 64px;
+}
+
 p {
   line-height: 28px; /* 175% */
 }
@@ -42,6 +47,30 @@ header a, header .btn-contact {
 }
 .hero .ilustration {
   max-width: 638px;
+}
+
+.how-work {
+  padding: 130px 0;
+}
+
+.text-left {
+  max-width: 400px;
+}
+.text-left p {
+  color: #282938;
+}
+.text-left a {
+  color: #2405F2;
+}
+
+.right-grid {
+  max-width: 700px;
+}
+.right-grid .item-grid {
+  max-width: 303px;
+}
+.right-grid .item-grid img {
+  width: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

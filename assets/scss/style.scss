@@ -37,3 +37,27 @@ header{
         max-width: 638px;
     }
 }
+
+.how-work{
+    padding: 130px 0;
+}
+
+.text-left{
+    max-width: 400px;
+    p{
+        color:$color-text-1;
+    }
+    a{
+        color: $color-text-2;
+    }
+}
+
+.right-grid{
+    max-width: 700px;
+    .item-grid{
+        max-width: 303px;
+        img{
+            width: 50px;
+        }
+    }
+}
