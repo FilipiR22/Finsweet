@@ -40,6 +40,7 @@ header{
 
 .how-work{
     padding: 130px 0;
+    background-color: $background-color-3;
 }
 
 .text-left{
@@ -58,6 +59,57 @@ header{
         max-width: 303px;
         img{
             width: 50px;
+        }
+    }
+}
+
+.view-projects{
+    padding: 128px 0 150px;
+    .header{
+        margin-bottom: 4rem;
+    }
+    .image-large{
+        &::before{
+            content: '';
+            background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+            position: absolute;
+            height: 100%;
+            width: 50%;
+            z-index: 1;
+        }
+        position: relative;
+        .text{
+            position: absolute;
+            z-index: 2;
+            bottom: 76px;
+            left: 48px;
+            max-width: 313px;
+            a{
+                color: $background-color-2;
+            }
+        }
+    }
+    .content-cards{
+        .mini-card{
+            position: relative;
+            &::before{
+                content: '';
+                background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                z-index: 1;
+            }
+        }
+        .text{
+            position: absolute;
+            bottom: 42px;
+            left: 56px;
+            max-width: 250px;
+            z-index: 2;
+            a{
+                color: $background-color-2;
+            }
         }
     }
 }

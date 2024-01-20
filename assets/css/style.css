@@ -10,6 +10,11 @@ h2 {
   line-height: 64px;
 }
 
+h4 {
+  font-size: 24px;
+  line-height: 36px; /* 150% */
+}
+
 p {
   line-height: 28px; /* 175% */
 }
@@ -51,6 +56,7 @@ header a, header .btn-contact {
 
 .how-work {
   padding: 130px 0;
+  background-color: #F4F6FC;
 }
 
 .text-left {
@@ -71,6 +77,55 @@ header a, header .btn-contact {
 }
 .right-grid .item-grid img {
   width: 50px;
+}
+
+.view-projects {
+  padding: 128px 0 150px;
+}
+.view-projects .header {
+  margin-bottom: 4rem;
+}
+.view-projects .image-large {
+  position: relative;
+}
+.view-projects .image-large::before {
+  content: "";
+  background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  z-index: 1;
+}
+.view-projects .image-large .text {
+  position: absolute;
+  z-index: 2;
+  bottom: 76px;
+  left: 48px;
+  max-width: 313px;
+}
+.view-projects .image-large .text a {
+  color: #FCD980;
+}
+.view-projects .content-cards .mini-card {
+  position: relative;
+}
+.view-projects .content-cards .mini-card::before {
+  content: "";
+  background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+.view-projects .content-cards .text {
+  position: absolute;
+  bottom: 42px;
+  left: 56px;
+  max-width: 250px;
+  z-index: 2;
+}
+.view-projects .content-cards .text a {
+  color: #FCD980;
 }
 
 /*# sourceMappingURL=style.css.map */
