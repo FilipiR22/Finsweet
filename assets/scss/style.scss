@@ -11,6 +11,15 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    color: $color-text-1;
+}
+
+html,body{
+    width: 100vw;
+    height: 100vh;
+}
+
 a{
     text-decoration: none;
 }
@@ -24,41 +33,38 @@ header{
 }
 
 .hero{
-    padding: 150px 0 130px;
+    padding: 9.375rem 0 8.125rem;
     background-color: $background-color-1;
     .text-left{
-        max-width: 582px;
+        max-width: 36.375rem;
         .btn-view{
             background-color: $background-color-2;
             padding: 0 3.5rem;
         }
     }
     .ilustration{
-        max-width: 638px;
+        max-width: 39.875rem;
     }
 }
 
 .how-work{
-    padding: 130px 0;
+    padding: 8.125rem 0;
     background-color: $background-color-3;
 }
 
 .text-left{
-    max-width: 400px;
-    p{
-        color:$color-text-1;
-    }
+    max-width: 25rem;
     a{
         color: $color-text-2;
     }
 }
 
 .right-grid{
-    max-width: 700px;
+    max-width: 43.75rem;
     .item-grid{
-        max-width: 303px;
+        max-width: 18.9375rem;
         img{
-            width: 50px;
+            width: 3.125rem;
         }
     }
 }
@@ -73,7 +79,7 @@ header{
 }
 
 .view-projects{
-    padding: 128px 0 150px;
+    padding: 8rem 0 9.375rem;
     .header{
         margin-bottom: 4rem;
     }
@@ -85,9 +91,9 @@ header{
         .text{
             position: absolute;
             z-index: 2;
-            bottom: 76px;
-            left: 48px;
-            max-width: 313px;
+            bottom: 4.75rem;
+            left: 3rem;
+            max-width: 19.5625rem;
             a{
                 color: $background-color-2;
             }
@@ -102,9 +108,9 @@ header{
         }
         .text{
             position: absolute;
-            bottom: 42px;
-            left: 56px;
-            max-width: 250px;
+            bottom: 2.625rem;
+            left: 3.5rem;
+            max-width: 15.625rem;
             z-index: 2;
             a{
                 color: $background-color-2;
@@ -114,14 +120,57 @@ header{
 }
 
 .services{
-    padding: 128px 0;
+    padding: 8rem 0;
     background-color: $background-color-3;
     h2{
-        max-width: 630px;
+        max-width: 39.375rem;
     }
     .item-card{
         width: 100%;
         max-width: 25.3125rem;
         background-color: $white;
+    }
+}
+
+.blog{
+    padding: 3.75rem 0 8rem;
+    h2{
+        margin-bottom: 4rem;
+    }
+    .card-blog{
+        width: 100%;
+        max-width: 25.3125rem;
+        p:not(.descri-conteudo){
+            margin-top: 2.5rem;
+        }
+        .descri-conteudo{
+            margin-bottom:2rem;
+        }
+        a{
+            color: $color-text-1;
+        }
+    }
+}
+
+footer{
+    .footer-top{
+        padding-top: 6.5rem;
+        background-color: $background-color-1;
+    }
+    .text{
+        color:$white;
+        .logo-descri,.contact{
+            width: 100%;
+            max-width: 25rem;
+        }
+    }
+    .more-contact{
+        background-color:$background-color-2;
+        width: 100%;
+        max-width: 32.3125rem;
+        padding: 18px 37px 16px;
+    }
+    .footer-bottom{
+        padding: 2rem 0;
     }
 }

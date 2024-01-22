@@ -15,6 +15,11 @@ h4 {
   line-height: 36px; /* 150% */
 }
 
+h5 {
+  font-size: 24px !important;
+  line-height: 150% !important;
+}
+
 p {
   line-height: 28px; /* 175% */
 }
@@ -25,6 +30,15 @@ p {
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+}
+
+body {
+  color: #282938;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
 }
 
 a {
@@ -40,47 +54,44 @@ header a, header .btn-contact {
 }
 
 .hero {
-  padding: 150px 0 130px;
+  padding: 9.375rem 0 8.125rem;
   background-color: #1C1E53;
 }
 .hero .text-left {
-  max-width: 582px;
+  max-width: 36.375rem;
 }
 .hero .text-left .btn-view {
   background-color: #FCD980;
   padding: 0 3.5rem;
 }
 .hero .ilustration {
-  max-width: 638px;
+  max-width: 39.875rem;
 }
 
 .how-work {
-  padding: 130px 0;
+  padding: 8.125rem 0;
   background-color: #F4F6FC;
 }
 
 .text-left {
-  max-width: 400px;
-}
-.text-left p {
-  color: #282938;
+  max-width: 25rem;
 }
 .text-left a {
   color: #2405F2;
 }
 
 .right-grid {
-  max-width: 700px;
+  max-width: 43.75rem;
 }
 .right-grid .item-grid {
-  max-width: 303px;
+  max-width: 18.9375rem;
 }
 .right-grid .item-grid img {
-  width: 50px;
+  width: 3.125rem;
 }
 
 .view-projects {
-  padding: 128px 0 150px;
+  padding: 8rem 0 9.375rem;
 }
 .view-projects .header {
   margin-bottom: 4rem;
@@ -99,9 +110,9 @@ header a, header .btn-contact {
 .view-projects .image-large .text {
   position: absolute;
   z-index: 2;
-  bottom: 76px;
-  left: 48px;
-  max-width: 313px;
+  bottom: 4.75rem;
+  left: 3rem;
+  max-width: 19.5625rem;
 }
 .view-projects .image-large .text a {
   color: #FCD980;
@@ -119,9 +130,9 @@ header a, header .btn-contact {
 }
 .view-projects .content-cards .text {
   position: absolute;
-  bottom: 42px;
-  left: 56px;
-  max-width: 250px;
+  bottom: 2.625rem;
+  left: 3.5rem;
+  max-width: 15.625rem;
   z-index: 2;
 }
 .view-projects .content-cards .text a {
@@ -129,16 +140,57 @@ header a, header .btn-contact {
 }
 
 .services {
-  padding: 128px 0;
+  padding: 8rem 0;
   background-color: #F4F6FC;
 }
 .services h2 {
-  max-width: 630px;
+  max-width: 39.375rem;
 }
 .services .item-card {
   width: 100%;
   max-width: 25.3125rem;
   background-color: #fff;
+}
+
+.blog {
+  padding: 3.75rem 0 8rem;
+}
+.blog h2 {
+  margin-bottom: 4rem;
+}
+.blog .card-blog {
+  width: 100%;
+  max-width: 25.3125rem;
+}
+.blog .card-blog p:not(.descri-conteudo) {
+  margin-top: 2.5rem;
+}
+.blog .card-blog .descri-conteudo {
+  margin-bottom: 2rem;
+}
+.blog .card-blog a {
+  color: #282938;
+}
+
+footer .footer-top {
+  padding-top: 6.5rem;
+  background-color: #1C1E53;
+}
+footer .text {
+  color: #fff;
+}
+footer .text .logo-descri, footer .text .contact {
+  width: 100%;
+  max-width: 25rem;
+}
+footer .more-contact {
+  background-color: #FCD980;
+  width: 100%;
+  max-width: 32.3125rem;
+  padding: 18px 37px 16px;
+}
+footer .footer-bottom {
+  padding: 2rem 0;
 }
 
 /*# sourceMappingURL=style.css.map */
