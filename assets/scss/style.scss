@@ -30,6 +30,13 @@ header{
     a,.btn-contact{
         color: $white;
     }
+    .navbar{
+        background-color: $background-color-1 !important;
+    }
+    .navbar-toggler{
+        color: $white !important; 
+        background-color: white;
+    }
 }
 
 .hero{
@@ -174,3 +181,5 @@ footer{
         padding: 2rem 0;
     }
 }
+
+@import './responsive.scss';

@@ -17,3 +17,12 @@ h5{
 p{
     line-height: 28px; /* 175% */
 }
+
+@media(max-width:560px){
+    h1 {
+        font-size: 40px !important;
+    }
+    h2{
+        font-size: 32px !important;
+    }
+}
