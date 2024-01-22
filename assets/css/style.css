@@ -128,4 +128,17 @@ header a, header .btn-contact {
   color: #FCD980;
 }
 
+.services {
+  padding: 128px 0;
+  background-color: #F4F6FC;
+}
+.services h2 {
+  max-width: 630px;
+}
+.services .item-card {
+  width: 100%;
+  max-width: 25.3125rem;
+  background-color: #fff;
+}
+
 /*# sourceMappingURL=style.css.map */

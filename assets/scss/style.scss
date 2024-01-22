@@ -63,6 +63,15 @@ header{
     }
 }
 
+@mixin gradiente-blue($width){
+    content: '';
+        background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+        position: absolute;
+        height: 100%;
+        width:$width;
+        z-index: 1;
+}
+
 .view-projects{
     padding: 128px 0 150px;
     .header{
@@ -70,12 +79,7 @@ header{
     }
     .image-large{
         &::before{
-            content: '';
-            background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
-            position: absolute;
-            height: 100%;
-            width: 50%;
-            z-index: 1;
+            @include gradiente-blue(50%);
         }
         position: relative;
         .text{
@@ -93,12 +97,7 @@ header{
         .mini-card{
             position: relative;
             &::before{
-                content: '';
-                background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
-                position: absolute;
-                height: 100%;
-                width: 100%;
-                z-index: 1;
+                @include gradiente-blue(100%);
             }
         }
         .text{
@@ -111,5 +110,18 @@ header{
                 color: $background-color-2;
             }
         }
+    }
+}
+
+.services{
+    padding: 128px 0;
+    background-color: $background-color-3;
+    h2{
+        max-width: 630px;
+    }
+    .item-card{
+        width: 100%;
+        max-width: 25.3125rem;
+        background-color: $white;
     }
 }
