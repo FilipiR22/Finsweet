@@ -31,6 +31,10 @@ p {
   h2 {
     font-size: 32px !important;
   }
+  h4 {
+    font-size: 20px !important;
+    line-height: 36px;
+  }
 }
 /* Resets */
 * {
@@ -264,6 +268,20 @@ footer .footer-bottom {
   .view-projects .image-large img {
     width: 100%;
     height: auto;
+  }
+  .view-projects .mb-0-mobile {
+    margin-bottom: 0 !important;
+  }
+  .view-projects .text {
+    max-width: 50% !important;
+    position: absolute;
+    z-index: 2;
+    bottom: 5px !important;
+    left: 5px !important;
+    background-color: black;
+  }
+  .view-projects .text p {
+    font-size: 12px !important;
   }
 }
 

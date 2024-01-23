@@ -60,5 +60,19 @@
                 height: auto;
             }
         }
+        .mb-0-mobile{
+            margin-bottom: 0 !important;
+        }
+        .text{
+            max-width: 50% !important;
+            position: absolute;
+            z-index: 2;
+            bottom: 5px !important;
+            left: 5px !important;
+            background-color: black;
+            p{
+                font-size: 12px !important;
+            }
+        }
     }
 }
